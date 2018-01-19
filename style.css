@@ -1,0 +1,22 @@
+.myHeader {
+	display: flex;
+}
+
+.logo {
+	background-color: magenta;
+}
+
+.myNav {
+	background-color: red;
+	flex-grow: 1;
+}
+
+.myNav-ul {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.myNav-li {
+	list-style-type: none;
+	margin-left: 20px;
+}
